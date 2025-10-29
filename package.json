@@ -1,0 +1,20 @@
+{
+  "name": "filename-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "yargs": "^18.0.0"
+  }
+}
