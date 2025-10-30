@@ -1,5 +1,5 @@
 # Easily convert Notion exports into Github READMEs
-This script watches the directory from a Notion export for filename changes. This is useful for screenshots pasted into Notion without useful naming conventions.
+This script watches the directory from a Notion export for filename changes. This is useful for renaming screenshots pasted into Notion without structured naming conventions. The script will find and replace the file's entry in the parent markdown file with a Github friendly `<img/>` tag.
 
 Run the script in the export's directory or pass in the path:
 ```
